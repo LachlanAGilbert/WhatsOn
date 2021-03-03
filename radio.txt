@@ -1,0 +1,744 @@
+﻿
+<!DOCTYPE HTML>
+  <!--[if lt IE 7]> <html lang="en" class="lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+  <!--[if IE 7]> <html lang="en" class="lt-ie9 lt-ie8"> <![endif]-->
+  <!--[if IE 8]> <html lang="en" class="lt-ie9"> <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <html lang="en"> <!--<![endif]-->
+  <head>
+    <title>Guide - ABC Radio National (Australian Broadcasting Corporation)</title>
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+<link rel="schema.DC" href="http://purl.org/dc/elements/1.1/" />
+<link rel="schema.DCTERMS" href="http://purl.org/dc/terms/" />
+<link rel="schema.iptc" href="urn:newsml:iptc.org:20031010:topicset.iptc-genre:8" />
+<link rel="canonical" data-abc-platform="standard" href="https://www.abc.net.au/radionational/guide/" />
+<meta name="title" content="Guide"/>
+            <meta name="ContentId" content="2884488"/>
+            <meta name="ABC.site" content="ABC Radio National"/>
+            <meta name="ABC_WCMS_sitesearch_include" content="false"/>
+            <meta name="twitter:card" content="summary"/>
+            <meta name="ABC.ContentType" content="CMChannel"/>
+            <meta name="DC.Publisher.CorporateName" content="Australian Broadcasting Corporation"/>
+            <meta name="DC.rights" scheme="DCTERMS.URI" content="https://www.abc.net.au/rn/copyright.htm"/>
+        <meta name="DC.type" content="Collection"/>
+            <meta name="DC.creator.CorporateName" content="Australian Broadcasting Corporation"/>
+            <meta name="DC.format" scheme="DCTERMS.IMT" content="text/html"/>
+        <meta name="DC.identifier" scheme="DCTERMS.URI" content="https://www.abc.net.au/radionational/guide/"/>
+          <meta property="og:site_name" content="Radio National"/>
+            <meta name="twitter:site" content="@RadioNational"/>
+            <link rel="stylesheet" type="text/css"
+                                                                              href="https://www.abc.net.au/res/sites/rn/css/abc-rn-compiled-gateway.css?v=1"/>
+    <!--[if lte IE 7]><style type="text/css">@import url(https://www.abc.net.au/res/sites/rn/css/yaml-iehacks.css);</style><![endif]-->
+        <link media="all" rel="stylesheet" type="text/css"
+                                                                              href="https://res.abc.net.au/bundles/2.5.0/styles/abc.bundle.2.5.0.min.css"/>
+    <!--[if (IE 6)|(IE 7)]><style type="text/css">@import url(https://www.abc.net.au/res/sites/rn/css/abc-rn-gateway-iefixes.css?v=2);</style><![endif]-->
+        <link rel="stylesheet" type="text/css"
+                                                                              href="/cm/code/4046972/gateway-homepage.css.css"/>
+    <link rel="stylesheet" type="text/css"
+                                                                              href="https://www.abc.net.au/res/sites/rn/css/schedule-at-a-glance.css"/>
+    <script type="text/javascript" src="https://www.abc.net.au/res/libraries/abcjs/abc-min.js"></script>
+        <script type="text/javascript" src="https://www.abc.net.au/res/libraries/jquery/jquery-1.7.min.js"></script>
+        <script type="text/javascript" src="https://www.abc.net.au/res/libraries/cinerama2/scripts/cinerama2.js"></script>
+        <script type="text/javascript" src="https://www.abc.net.au/res/libraries/swfobject/swfobject-2.2.js"></script>
+        <script type="text/javascript" src="https://www.abc.net.au/res/sites/rn/js/jquery-ui-1.8.6.custom.min.js"></script>
+        <script type="text/javascript" src="https://www.abc.net.au/res/sites/rn/js/rn.programs.js"></script>
+        <script type="text/javascript" src="https://www.abc.net.au/res/sites/rn/js/jquery.cookie.js"></script>
+        <script type="text/javascript" src="https://www.abc.net.au/res/sites/rn/js/abc.media.js?2018-11-16"></script>
+        <script type="text/javascript" src="https://www.abc.net.au/res/sites/rn/js/jquery.rn.js?v=6"></script>
+        <script type="text/javascript" src="https://www.abc.net.au/res/sites/rn/js/rn.gateway.js"></script>
+        <script type="text/javascript" src="/cm/code/4452816/InFocus+Resize.js"></script>
+        <script type="text/javascript" src="https://www.abc.net.au/res/sites/rn/js/rn.socialbookmarks.js?v=2"></script>
+        <script type="text/javascript" src="https://www.abc.net.au/res/sites/rn/js/feature_navigation.js?v=2"></script>
+        <script type="text/javascript" src="https://www.abc.net.au/res/sites/rn/js/rn-wcms-workarounds.js?v=3"></script>
+        <script type="text/javascript" src="https://www.abc.net.au/res/sites/rn/js/schedule-at-a-glance.js?v=1"></script>
+        <script type="text/javascript" src="https://www.abc.net.au/res/bundles/2.0.5/scripts/html5shiv.js"></script>
+        <script type="text/javascript" src="https://www.abc.net.au/res/sites/rn/js/jquery.hoverIntent.js"></script>
+        <script type="text/javascript" src="https://www.abc.net.au/res/sites/rn/js/superfish.js"></script>
+        <script type="text/javascript" src="https://www.abc.net.au/res/sites/rn/js/media_on_demand_redirect.js?v=3"></script>
+        <script type="text/javascript" src="https://res.abc.net.au/libraries/sfmc/sfmc-client-latest.min.js"></script>
+        <script>
+    window.dataLayer = window.dataLayer || [];
+  </script>
+
+  <script>
+    window.dataLayer.push({
+      'debug': {
+         'schemaVersion': '20180315',
+      },
+
+       'document': {
+        'language': '',
+         'canonicalUrl':'https://www.abc.net.au/radionational/guide/',
+         'contentType': 'channel',
+         'uri':'coremedia://channel/2884488',
+         'contentSource':'coremedia',
+         'id':'2884488',
+         
+         'pageTitle':'Guide',
+         
+         'title':{
+           
+           'title':'Guide',
+           
+         },
+         
+         'siteRoot':{
+           
+              'segment':'radionational',
+           
+              'title':'ABC Radio National',
+           
+         },
+         
+       },
+    })
+  </script>
+
+  <script>
+    window.dataLayer.push({
+        'application': {
+          'generatorName': 'WCMS JSP',
+          'generatorVersion': '18.10.8.8.0',
+          
+          'environment':'production',
+          
+          'wcmsTheme':'phase1-radio',
+        }
+    })
+  </script>
+
+</head>
+  <body id=""
+        class="platform-standard rn-gateway">
+    <!--noindex-->
+<p class="skiplinks">
+  Welcome to ABC Radio National. Skip to:
+  <a href="#rn-navigation">RN Navigation</a>
+  <a href="#search-simple-input-query">RN Search</a>
+  <a href="#content">RN Content</a>
+</p>
+
+<!-- Start ABC Bundle Header 2.5.0 -->
+<!--noindex-->
+<nav id="abcHeader" class="global" aria-label="ABC Network Navigation" data-resourcebase="https://res.abc.net.au/bundles/2.5.0/" data-scriptsbase="https://res.abc.net.au/bundles/2.5.0/scripts/" data-version="2.5.0">
+ <a class="home" href="https://www.abc.net.au/" data-mobile="https://mobile.abc.net.au/"><img src="https://res.abc.net.au/bundles/2.5.0/images/logo-abc@2x.png" width="65" height="16" alt="" />ABC Home</a>
+ <div class="sites">
+  <a class="controller" href="javascript:;" aria-controls="abcNavSites"><img src="https://res.abc.net.au/bundles/2.5.0/images/icon-menu-grey@1x.gif" data-src="images/icon-menu-grey@1x.gif" data-hover="images/icon-menu-blue@1x.gif" class="icon" alt="" /><span class='text'><span>Open</span> Sites <span>menu</span></span></a>
+  <div id="abcNavSites" class="menu" role="menu" aria-expanded="false">
+   <ul>
+    <li><a role="menuitem" href="https://www.abc.net.au/" data-mobile="https://mobile.abc.net.au/">ABC Home</a></li>
+    <li><a role="menuitem" href="https://www.abc.net.au/news/" data-mobile="https://mobile.abc.net.au/news/">News</a></li>
+    <li><a role="menuitem" href="https://iview.abc.net.au" data-mobile="https://iview.abc.net.au">iview</a></li>
+    <li><a role="menuitem" href="https://www.abc.net.au/tv/" data-mobile="https://www.abc.net.au/tv/">TV</a></li>
+    <li><a role="menuitem" href="https://radio.abc.net.au/" data-mobile="https://radio.abc.net.au/">Radio</a></li>
+    <li><a role="menuitem" href="https://www.abc.net.au/children/" data-mobile="https://mobile.abc.net.au/children/">Kids</a></li>
+    <li><a role="menuitem" href="https://shop.abc.net.au/" data-mobile="https://shop.abc.net.au/">Shop</a></li>
+    <li><a role="menuitem" class="more" href="https://www.abc.net.au/more/" data-mobile="https://www.abc.net.au/more/">More</a></li>
+   </ul>
+  </div>
+ </div>
+ <div class="accounts">
+  <!-- Accounts is currently injected due to different URLs --><span data-src="images/icon-user-grey@1x.png" data-hover="images/icon-user-blue@1x.png"></span>
+ </div>
+ <a class="search" href="https://search.abc.net.au/" data-mobile="https://search.abc.net.au/"><span>Search</span>
+  <img src="https://res.abc.net.au/bundles/2.5.0/images/icon-search-grey@1x.png" data-hover="images/icon-search-blue@1x.png" class="icon" alt="" /></a>
+</nav>
+<!--endnoindex-->
+<!-- End ABC Bundle Header 2.5.0 -->
+
+<div id="backgroundwrapper">
+<div class="page_margins noprint">
+<div class="page">
+<div id="preheader">
+<div class="rn-nav" id="rn-navigation">
+ <ul class="rn-nav-linkgroup sf-menu">
+  <li class="rn-nav-link first rn-nav-1"><a href="/radionational/">Home</a></li>
+  <li class="rn-nav-link rn-nav-drop">
+   <a href="#">Programs</a>
+   <ul class="rn-nav-index" id="rn-alphaindex">
+    <li>
+     <a href="#"><span class="accessible">Programs beginning with </span>0</a>
+     <a href="#"><span class="accessible">Programs beginning with </span>A</a>
+     <a href="#"><span class="accessible">Programs beginning with </span>B</a>
+     <a href="#"><span class="accessible">Programs beginning with </span>C</a>
+     <a href="#"><span class="accessible">Programs beginning with </span>D</a>
+     <a href="#"><span class="accessible">Programs beginning with </span>E</a>
+     <a href="#"><span class="accessible">Programs beginning with </span>F</a>
+     <a href="#"><span class="accessible">Programs beginning with </span>G</a>
+     <a href="#"><span class="accessible">Programs beginning with </span>H</a>
+     <a href="#"><span class="accessible">Programs beginning with </span>I</a>
+     <a href="#"><span class="accessible">Programs beginning with </span>J</a>
+     <a href="#"><span class="accessible">Programs beginning with </span>K</a>
+     <a href="#"><span class="accessible">Programs beginning with </span>L</a>
+     <a href="#"><span class="accessible">Programs beginning with </span>M</a>
+     <a href="#"><span class="accessible">Programs beginning with </span>N</a>
+     <a href="#"><span class="accessible">Programs beginning with </span>O</a>
+     <a href="#"><span class="accessible">Programs beginning with </span>P</a>
+     <a href="#"><span class="accessible">Programs beginning with </span>Q</a>
+     <a href="#"><span class="accessible">Programs beginning with </span>R</a>
+     <a href="#"><span class="accessible">Programs beginning with </span>S</a>
+     <a href="#"><span class="accessible">Programs beginning with </span>T</a>
+     <a href="#"><span class="accessible">Programs beginning with </span>U</a>
+     <a href="#"><span class="accessible">Programs beginning with </span>V</a>
+     <a href="#"><span class="accessible">Programs beginning with </span>W</a>
+     <a href="#"><span class="accessible">Programs beginning with </span>X</a>
+     <a href="#"><span class="accessible">Programs beginning with </span>Y</a>
+     <a href="#"><span class="accessible">Programs beginning with </span>Z</a>
+    </li>
+   </ul>
+   <ul id="rn-programindex">
+    <li><a href="/radionational/programs/">All Programs</a></li>
+    <li><a href="/radionational/programs/archived/">Archived Programs</a></li>
+    <li><a href="/radionational/programs/abigcountry/" class="alpha_0 alpha_a">A Big Country</a></li>
+    <li><a href="/radionational/programs/allinthemind/">All In The Mind</a></li>
+    <li><a href="/am/">AM</a></li>
+    <li><a href="/radionational/programs/the-art-show/">The Art Show</a></li>
+    <li><a href="https://www.abc.net.au/radio/programs/australia-wide/">Australia Wide</a></li>
+    <li><a href="/radionational/programs/awaye/">AWAYE!</a></li>
+    <li><a href="/radionational/programs/backgroundbriefing/" class="alpha_b">Background Briefing</a></li>
+    <li><a href="/radionational/programs/bestoffestivals/">Best Of The Festivals</a></li>
+    <li><a href="/radionational/programs/betweenthelines/">Between The Lines</a></li>
+    <li><a href="/radionational/programs/bigideas/">Big Ideas</a></li>
+    <li><a href="/radionational/programs/blueprintforliving/">Blueprint for Living</a></li>
+    <li><a href="/radionational/programs/the-book-show/">The Book Show</a></li>
+    <li><a href="/radionational/programs/the-bookshelf/">The Bookshelf</a></li>
+    <li><a href="/radionational/programs/boyerlectures/">Boyer Lectures</a></li>
+    <li><a href="/radionational/programs/breakfast/">RN Breakfast</a></li>
+    <li><a href="https://www.abc.net.au/radio/programs/conversations/" class="alpha_c">Conversations</a></li>
+    <li><a href="/radionational/programs/counterpoint/">Counterpoint</a></li>
+    <li><a href="/radionational/programs/countrybreakfast/">Country Breakfast</a></li>
+    <li><a href="/radionational/programs/currentaffairsspecials/">Current Affairs Specials</a></li>
+    <li><a href="/radionational/programs/downloadthisshow/" class="alpha_d">Download This Show</a></li>
+    <li><a href="/radionational/programs/drawingroom/">The Drawing Room</a></li>
+    <li><a href="/radionational/programs/drive/">RN Drive</a></li>
+    <li><a href="/classic/duet/">Duet</a></li>
+    <li><a href="/radionational/programs/earshot/"class="alpha_e">Earshot</a>
+    <li><a href="/radionational/programs/the-economists/">The Economists</a></li>
+    <li><a href="/radionational/programs/extra/">Extra</a></li>
+    <li><a href="/radionational/programs/futuretense/"  class="alpha_f">Future Tense</a></li>
+    <li><a href="/radionational/programs/godforbid/" class="alpha_g">God Forbid</a></li>
+    <li><a href="/radionational/programs/greatmomentsinscience/">Great Moments In Science</a></li>
+    <li><a href="/radionational/programs/healthreport/" class="alpha_h">Health Report</a></li>
+    <li><a href="http://www.bbc.co.uk/programmes/p002vsn4">Heart and Soul</a></li>
+    <li><a href="/radionational/programs/the-history-listen/">The History Listen</a></li>
+    <li><a href="https://www.cbc.ca/radio/ideas" class="alpha_i">Ideas (CBC)</a></li>
+    <li><a href="/radionational/programs/itsnotarace/">It's Not A Race</a></li>
+    <li><a href="/radionational/programs/latenightlive/" class="alpha_j alpha_k alpha_l">Late Night Live</a></li>
+    <li><a href="/radionational/programs/lawreport/">Law Report</a></li>
+    <li><a href="/radionational/programs/lifematters/">Life Matters</a></li>
+    <li><a href="/radionational/programs/lost-and-found/">Lost and Found</a></li>
+    <li><a href="/radionational/programs/theminefield/" class="alpha_m">The Minefield</a></li>
+    <li><a href="/radionational/programs/themoney/">The Money</a></li>
+    <li><a href="/radionational/programs/musicshow/">The Music Show</a></li>
+    <li><a href="http://www.thenakedscientists.com/" class="alpha_n">The Naked Scientists</a></li>
+    <li><a href="/radionational/programs/ockhamsrazor/" class="alpha_o">Ockham's Razor</a></li>
+    <li><a href="/radionational/programs/offtrack/">Off Track</a></li>
+    <li><a href="/radionational/programs/partyroom/" class="alpha_p alpha_q">The Party Room</a></li>
+    <li><a href="/radionational/programs/the-people-vs/">The People Vs</a></li>
+    <li><a href="/radionational/programs/philosopherszone/">The Philosopher's Zone</a></li>
+    <li><a href="/pm/">PM</a></li>
+    <li><a href="/radionational/programs/rearvision/"  class="alpha_r">Rear Vision</a></li>
+    <li><a href="/radionational/programs/religionandethicsreport/">Religion and Ethics Report</a></li>
+    <li><a href="/radionational/programs/breakfast/">RN Breakfast</a></li>
+    <li><a href="/radionational/programs/drive/">RN Drive</a></li>
+    <li><a href="/radionational/programs/the-roundtable/">The Roundtable</a></li>
+    <li><a href="/am/" class="alpha_s">Saturday AM</a></li>
+    <li><a href="/radionational/programs/saturdayextra/">Saturday Extra</a></li>
+    <li><a href="/radionational/programs/sciencefriction/">Science Friction</a></li> 
+    <li><a href="/radionational/programs/scienceshow/">The Science Show</a></li>
+    <li><a href="/radionational/programs/the-screen-show/">The Screen Show</a></li>
+    <li><a href="/radionational/programs/shootingthepast/">Shooting The Past</a></li>
+    <li><a href="/radionational/programs/soul-search/">Soul Search</a></li>
+    <li><a href="http://www.cbc.ca/radio/spark">Spark</a></li>
+    <li><a href="https://www.abc.net.au/radio/programs/speakingout/">Speaking Out</a></li>
+    <li><a href="/radionational/programs/specialbroadcasts/">Specials</a></li>
+    <li><a href="/radionational/programs/sporty/">Sporty</a></li>
+
+    <li><a href="/radionational/programs/the-stage-show/">The Stage Show</a></li>
+    <li><a href="/radionational/programs/stop-everything/">Stop Everything</a></li>
+    <li><a href="/radionational/programs/sum-of-all-parts/">Sum Of All Parts</a></li>
+    <li><a href="/radionational/programs/sundayextra/">Sunday Extra</a></li>
+    <li><a href="https://www.thisamericanlife.org/australia" class="alpha_t alpha_u alpha_v">This American Life</a></li>
+    <li><a href="/radionational/programs/this-working-life/">This Working Life</a></li>
+    <li><a href="https://www.abc.net.au/trace">Trace</a></li>
+    <li><a href="/radionational/programs/the-people-vs/">The People Vs</a></li>
+    <li><a href="/radionational/programs/wordup/" class="alpha_w alpha_x alpha_y alpha_z">Word Up</a></li>
+    <li><a href="/radionational/programs/world-docos/">World Docos</a></li>
+    <li><a href="http://www.bbc.co.uk/programmes/p00fvhj7">World Business Report</a></li>
+    <li><a href="/worldtoday/">The World Today</a></li>
+   </ul>
+  </li>
+  <li class="rn-nav-link rn-nav-3" id="rn-navigation-after-programs"><a href="/radionational/guide/">Guide</a></li>
+  <li class="rn-nav-link rn-nav-4"><a href="/radionational/subjects/">Subjects</a></li>
+  <li class="rn-nav-link rn-nav-5"><a href="/radionational/features/">Features</a></li>
+  <li class="rn-nav-link rn-nav-6"><a href="/radionational/social-media/">Social Media</a></li>
+  <li class="rn-nav-link rn-nav-7"><a href="/radionational/rn-podcasting/">Podcasts</a></li>
+  <li class="rn-nav-link rn-nav-9"><a href="/radionational/about/">About</a></li>
+ </ul>
+</div>
+</div>
+</div>
+</div>
+<!--endnoindex-->
+<div class="page_margins">
+    <div class="page">
+        <div id="header">
+    <div class="c75l">
+      <h1 class="hs-abc-logo">
+        <a href="/radionational/">ABC Radio National</a></h1>
+      </div>
+    <div class="c25r">
+      <div id="search-simple" class="section search-box">
+ <form id="search-simple-form" method="get" action="/radionational/search/">
+  <p id="search-simple-group-query">
+   <label for="search-simple-input-query">Search RN</label>
+   <input id="search-simple-input-query" class="text" type="text" name="query" value="" size="50" data-placeholder="Search RN"/>
+   <input id="search-simple-input-submit" class="submit" type="submit" value="Search" />
+  </p>
+ </form> 
+</div>
+</div>
+  </div>
+  <div id="nav">
+      <ul>
+        <li class="nav-guide"><a href="/radionational/">Home</a></li>
+            <li class="nav-guide"><a href="/radionational/guide/">Guide</a></li>
+            <li class="nav-programs"><a href="/radionational/programs/">Programs</a></li>
+            <li class="nav-subjects"><a href="/radionational/subjects/">Subjects</a></li>
+            <li class="nav-features"><a href="/radionational/features/">Features</a></li>
+            <li class="nav-podcasts"><a href="/radionational/rntv/">RNTV</a></li>
+            <li class="nav-podcasts"><a href="/radionational/podcasts/">Podcasts &amp; feeds</a></li>
+            <li class="nav-transcripts"><a href="/radionational/transcripts/">Transcripts</a></li>
+            <li class=""><a href="/radionational/about/">About</a></li>
+            </ul>
+    </div>
+  <div id="content" class="subcolumns">
+  <div class="main c75l">
+    <div class="section">
+    <h2>Broadcast schedule</h2>
+    <div class="box article">
+      <div class="inline-content infographic full">
+        <a href="/radionational/on-air/7418728">
+
+
+
+
+
+
+
+
+
+
+
+  
+    
+      
+      
+      
+      
+      
+    
+  
+  
+    
+  
+  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  <img src="/cm/lb/7418728/data/on-air-data.jpg" alt="On air" title="On air"  width="680" height="400" />
+</a><p>
+    </p>
+</div><p> </p><p> </p><h5>New shows and voices in 2019</h5><p>ABC RN will explore the issues and ideas that matter to Australians in 2019 with new thought-provoking national shows and presenters to stir the mind and spirit across sport, religion, culture, work and life. ABC RN will continue to nurture the intellectual and cultural life of all Australians in 2019 by welcoming new voices and conversations to our extensive schedule of programs and podcasts.</p><p><strong>New to RN in 2019</strong></p><p><a href="/radionational/programs/sporty/" target="_self" title=""><strong>Sporty</strong></a><strong> </strong>(Saturdays 10.30am, replayed Mondays 5.30am)</p><p>RN will return to the playing field with the launch of <strong>Sporty</strong>, a new program for sports enthusiasts and anyone interested in general fitness.</p><p><a href="/radionational/programs/soul-search/" target="_self" title=""><strong>Soul Search</strong></a><strong> </strong>(Sundays 6pm, replayed Thursdays 12pm)</p><p>RN’s new Religion &amp; Ethics program <strong>Soul Search </strong>will explore the growing desire for meaning in our lives, examining what people believe and why. Presenter Dr Meredith Lake will host a national conversation on faith and meaning in Australia. Soul Search will replace The Spirit of Things, following presenter Dr Rachael Kohn’s decision to retire from the ABC.</p><p><a href="/radionational/programs/this-working-life/" target="_self" title=""><strong>This Working Life</strong></a><strong> </strong>(Tuesdays 11.30am, replayed Sundays 8.30pm)</p><p>In 2019, Best Practice will become a broader discussion about the social and cultural aspects of workplaces and how work impacts us under the new title <strong>This Working Life</strong>. The show is for all workplaces and workers – regardless of their rung on the corporate ladder – with coverage of different organisations and business leaders.</p><p><strong>Extended Sunday Extra </strong>(7am Sundays, replayed Mondays 2am)</p><p><a href="/radionational/programs/sundayextra/" target="_self" title=""><strong>Sunday Extra</strong></a> will be extended by 30 minutes to include features and interviews from the ABC’s extensive network of international correspondents, as part of its mix of current affairs, analysis and investigations. </p><p><a href="/radionational/programs/world-docos/" target="_self" title=""><strong>World Docos</strong></a><strong> </strong>(Saturdays 7pm, replayed Tuesdays 1am)</p><p>The world’s best radio documentaries will be showcased in a new program that draws on the archives of the ABC and our broadcast partners. </p><p><a href="/radionational/programs/rn-arts/" target="_self" title=""><strong>The Arts on RN</strong></a><strong> </strong>(Mondays to Fridays 10am)</p><p>In 2019, RN will continue to lead national conversations about arts and culture under a new series of names. <a href="/radionational/programs/the-book-show/" target="_self" title=""><strong>The Book Show</strong></a><strong> </strong>(formerly The Hub on Books) will move to Mondays, with literary interviews, news and analysis. On Tuesdays, <a href="/radionational/programs/the-stage-show/" target="_self" title=""><strong>The Stage Show</strong></a> (formerly The Hub on Stage) will cover theatre, dance, comedy, opera and musicals. On Wednesdays, <a href="/radionational/programs/the-art-show/" target="_self" title=""><strong>The Art Show</strong></a><strong> </strong>(formerly The Hub on Art) will be the “go to” place for issues affecting artists and audiences. On Thursdays,<a href="/radionational/programs/the-screen-show/" target="_self" title=""> <strong>The Screen Show</strong></a><strong> </strong>(formerly The Hub on Screen) will explore the worlds of film and television. <a href="/radionational/programs/the-bookshelf/" target="_self" title=""><strong>The Bookshelf </strong></a>(with Kate Evans and Cassie McCullagh) remains on air at midday on Friday</p><p> </p><p><strong>Returning to RN in 2019</strong></p><p>Listeners will continue to enjoy their favourite RN returning programs and podcasts in 2019. Download and print the new RN schedule as a PDF <a href="/cm/lb/2889742/data/rn-program-guide-data.pdf" target="_self" title=""><strong>here</strong></a>. If you would like guide mailed to you, please send you name and address using our <a href="/radionational/contact/" target="_self" title=""><strong>contact us page</strong></a> or call Phone: 02-8333 2821.</p><p> </p></div>
+  </div>
+<div class="section">
+    <h2>On air today [all timezones]</h2>
+    <ul class="guide-links">
+      <li></li>
+      <li></li>
+    </ul>
+    <ol class="tabs">
+       
+
+
+
+
+
+  
+
+
+  
+  
+    <li ><a href="/radionational/guide/day=sun2">Sun</a></li>
+  
+
+
+
+
+
+
+  
+
+
+  
+    <li class="ui-state-active"><a href="/radionational/guide/day=mon">Mon</a></li>
+  
+  
+
+
+
+
+
+
+  
+
+
+  
+  
+    <li ><a href="/radionational/guide/day=tue">Tue</a></li>
+  
+
+
+
+
+
+
+  
+
+
+  
+  
+    <li ><a href="/radionational/guide/day=wed">Wed</a></li>
+  
+
+
+
+
+
+
+  
+
+
+  
+  
+    <li ><a href="/radionational/guide/day=thu">Thu</a></li>
+  
+
+
+
+
+
+
+  
+
+
+  
+  
+    <li ><a href="/radionational/guide/day=fri">Fri</a></li>
+  
+
+
+
+
+
+
+  
+
+
+  
+  
+    <li ><a href="/radionational/guide/day=sat">Sat</a></li>
+  
+
+
+
+
+
+
+  
+
+
+  
+  
+    <li ><a href="/radionational/guide/day=sun">Sun</a></li>
+  
+
+
+
+
+
+
+  
+
+
+  
+  
+    <li ><a href="/radionational/guide/day=week">Full week</a></li>
+  
+</ol>
+    <div class="section schedule">
+    <table summary="Daily schedule for Radio National">
+      <colgroup>
+        <col class="c12l"/>
+        <col class="c19l"/>
+        <col class="c69r"/>
+      </colgroup>
+      <thead>
+      <tr>
+        <th scope="col" abbr="time">Program time</th>
+        <th scope="col" abbr="program">Program name</th>
+        <th scope="col" abbr="description">Program description</th>
+      </tr>
+      </thead>
+      <tbody>
+        <tr >
+              <td>12:00AM</td>
+              <td><a href="https://www.abc.net.au/radionational/programs/the-history-listen/">The History Listen</a></td>
+              <td>New and compelling stories from Australia&#039;s past, told by some of our most popular and trusted historians.</td>
+            </tr>
+          <tr class="even">
+              <td>12:30AM</td>
+              <td><a href="https://www.abc.net.au/radionational/programs/sciencefriction/">Science Friction</a></td>
+              <td>Science, culture and everything in between. Feel the heat. All species welcome.</td>
+            </tr>
+          <tr >
+              <td>1:00AM</td>
+              <td><a href="https://www.abc.net.au/radionational/programs/blueprintforliving">Blueprint for Living</a></td>
+              <td>Blueprint for Living explores the things that help make for a good life: food, architecture, design, fashion, travel and issues that affect our personal well-being.</td>
+            </tr>
+          <tr class="even">
+              <td>2:00AM</td>
+              <td><a href="https://www.abc.net.au/classic/duet/">Duet</a></td>
+              <td>Tamara-Anna Cislowska snags a star to share an hour of music and conversation at the keyboard.</td>
+            </tr>
+          <tr >
+              <td>3:00AM</td>
+              <td><a href="http://www.bbc.co.uk/programmes/p002vsn4">Heart and Soul</a></td>
+              <td>Personal approaches to religious belief and spirituality from around the world (BBC).</td>
+            </tr>
+          <tr class="even">
+              <td>3:30AM</td>
+              <td><a href="https://www.abc.net.au/radionational/programs/abigcountry/">A Big Country</a></td>
+              <td>Stories from around Australia by the ABC&#039;s rural reporters.</td>
+            </tr>
+          <tr >
+              <td>4:00AM</td>
+              <td><a href="https://www.abc.net.au/radionational/programs/scienceshow/">The Science Show</a></td>
+              <td>Unique insights into the latest scientific research and debate, from the physics of cricket to prime ministerial biorhythms.</td>
+            </tr>
+          <tr class="even">
+              <td>5:00AM</td>
+              <td><a href="https://www.abc.net.au/radionational/programs/extra">Extra</a></td>
+              <td>Engaging and in depth discussions, debates and interviews presented by Geradline Doogue.</td>
+            </tr>
+          <tr >
+              <td>5:30AM</td>
+              <td><a href="https://www.abc.net.au/radionational/programs/sporty/">Sporty</a></td>
+              <td>Sporty is your guide to the powerful place of sport and fitness in Australia&#039;s cultural life.</td>
+            </tr>
+          <tr class="even">
+              <td>6:00AM</td>
+              <td><a href="https://www.abc.net.au/radionational/programs/breakfast/">RN Breakfast</a></td>
+              <td>Be informed at the start of the day with coverage of national and international events.</td>
+            </tr>
+          <tr >
+              <td>9:00AM</td>
+              <td><a href="https://www.abc.net.au/radionational/programs/lifematters/">Life Matters</a></td>
+              <td>Life Matters is your guide to a better life for you, those you love and the place you call home.</td>
+            </tr>
+          <tr class="even">
+              <td>10:00AM</td>
+              <td><a href="https://www.abc.net.au/radionational/programs/the-book-show/">The Book Show</a></td>
+              <td>Your weekly destination for in-depth literary interviews as well as news and analysis about the publishing industry. A must listen for lovers of fiction.</td>
+            </tr>
+          <tr >
+              <td>11:00AM</td>
+              <td><a href="https://www.abc.net.au/radionational/programs/earshot/">Earshot</a></td>
+              <td>Earshot is all about people, places, stories and ideas, in all their diversity.</td>
+            </tr>
+          <tr class="even">
+              <td>11:30AM</td>
+              <td><a href="https://www.abc.net.au/radionational/programs/abigcountry/">A Big Country</a></td>
+              <td>Stories from around Australia by the ABC&#039;s rural reporters.</td>
+            </tr>
+          <tr >
+              <td>12:00PM</td>
+              <td><a href="https://www.abc.net.au/radionational/programs/godforbid">God Forbid</a></td>
+              <td>Religion: it&#039;s at the centre of world affairs, but profound questions still remain. Why are you here? What happens when you die? Does God matter? God Forbid seeks the answers.</td>
+            </tr>
+          <tr class="even">
+              <td>1:00PM</td>
+              <td><a href="https://www.abc.net.au/worldtoday/">The World Today</a></td>
+              <td>The latest reports and analysis of the day&#039;s news.</td>
+            </tr>
+          <tr >
+              <td>1:30PM</td>
+              <td><a href="https://www.abc.net.au/radionational/programs/the-roundtable/">The Roundtable</a></td>
+              <td>RN&#039;s weekly forum, exploring the big issues and ideas in national and international affairs.</td>
+            </tr>
+          <tr class="even">
+              <td>2:00PM</td>
+              <td><a href="https://www.abc.net.au/radionational/programs/backgroundbriefing/">Background Briefing</a></td>
+              <td>Australia&#039;s leading audio investigations program uncovering the hidden stories at the heart of the country&#039;s biggest issues.</td>
+            </tr>
+          <tr >
+              <td>3:00PM</td>
+              <td><a href="https://www.abc.net.au/radio/programs/conversations/">Conversations</a></td>
+              <td>Draws you deeper into the life story of someone you may have heard about, but never met.</td>
+            </tr>
+          <tr class="even">
+              <td>4:00PM</td>
+              <td><a href="https://www.abc.net.au/radionational/programs/counterpoint/">Counterpoint</a></td>
+              <td>Tackling key social, economic and cultural issues in Australian life, challenging assumptions and giving voice to new and seldom-heard commentators.</td>
+            </tr>
+          <tr >
+              <td>5:00PM</td>
+              <td><a href="https://www.abc.net.au/pm/">PM</a></td>
+              <td>A comprehensive review and debate of national and international current affairs.</td>
+            </tr>
+          <tr class="even">
+              <td>5:30PM</td>
+              <td><a href="https://www.abc.net.au/radionational/programs/healthreport/">Health Report</a></td>
+              <td>Vital health and medical news.</td>
+            </tr>
+          <tr >
+              <td>6:00PM</td>
+              <td><a href="https://www.abc.net.au/radionational/programs/drive/">RN Drive</a></td>
+              <td>RN Drive takes you behind the day&#039;s headlines, with an engaging mix of current affairs, analysis, arts and culture from across Australia and around the world.</td>
+            </tr>
+          <tr class="even">
+              <td>7:35PM</td>
+              <td><a href="https://www.abc.net.au/radio/programs/australia-wide/">Australia Wide</a></td>
+              <td>Relevant and engaging coverage that provides news and analysis of national issues significant to regional Australia</td>
+            </tr>
+          <tr >
+              <td>8:00PM</td>
+              <td><a href="https://www.abc.net.au/radionational/programs/bigideas/">Big Ideas</a></td>
+              <td>Big Ideas brings you the best of talks, forums, debates, and festivals held in Australia and around the world, casting light on the major social, cultural, scientific and political issues.</td>
+            </tr>
+          <tr class="even">
+              <td>9:00PM</td>
+              <td><a href="https://www.abc.net.au/radionational/programs/stop-everything/">Stop Everything!</a></td>
+              <td>Tune in for a savvy, critical look at pop culture and what&#039;s in the zeitgeist. Join our panellists each week for a discussion about what they&#039;re reading, watching and listening to.</td>
+            </tr>
+          <tr >
+              <td>10:00PM</td>
+              <td><a href="https://www.abc.net.au/radionational/programs/latenightlive/">Late Night Live</a></td>
+              <td>Discussions on politics, science, philosophy and culture, with fascinating and often controversial guests.</td>
+            </tr>
+          <tr class="even">
+              <td>11:00PM</td>
+              <td><a href="https://www.abc.net.au/radionational/programs/the-bookshelf/">The Bookshelf</a></td>
+              <td>The Bookshelf is a program for dedicated readers and those who wished they read more.</td>
+            </tr>
+          </tbody>
+    </table>
+  </div>
+</div>
+</div>
+  <div class="c25r aside sidebar">
+    <!--noindex-->
+  <!--endnoindex-->
+</div>
+</div>
+<!--noindex-->
+  <div id="footer" class="cfix">
+    <h2><span>Explore Radio National</span></h2>
+    <div class="fs-footer-links">
+      <div class="subcolumns">
+      <div class="c25l"><div class="section">
+            <h3>General Information</h3>
+            <ul>
+              <li><a href="/radionational/about/" >
+    About RN</a></li>
+                <li><a href="/radionational/presenters/" >
+    Presenters</a></li>
+                <li><a href="/radionational/social-media/" >
+    Social Media</a></li>
+                <li><a href="/radionational/guide/" >
+    Program guide</a></li>
+                </ul>
+          </div>
+        </div>
+      <div class="c25l"><div class="section">
+            <h3>Editorial</h3>
+            <ul>
+              <li><a href="/radionational/features/" >
+    Feature articles</a></li>
+                <li><a href="/radionational/subjects/" >
+    Subjects</a></li>
+                <li><a href="/radionational/transcripts/" >
+    Transcripts</a></li>
+                </ul>
+          </div>
+        </div>
+      <div class="c25r"><div class="section">
+            <h3>Help</h3>
+            <ul>
+              <li><a href="/radionational/contact/" >
+    Contact us</a></li>
+                <li><a href="/radionational/help/podcasting/" >
+    How to listen</a></li>
+                <li><a href="https://www.abc.net.au/radio/listen/">ABC Listen</a></li>
+                <li><a href="https://radio.abc.net.au/help/offline" >
+    Frequency finder</a></li>
+                </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div><!--endnoindex-->
+</div>
+  </div>
+    </div><!--End Backgroundwrapper -->
+<!-- Start ABC Bundle Footer 2.5.0 -->
+<!--noindex-->
+<nav id="abcFooter" class="global" aria-label="ABC Footer Navigation" data-version="2.5.0">
+ <ul>
+  <li><a href="https://about.abc.net.au/terms-of-use/">Terms of Use</a></li>
+  <li><a href="https://about.abc.net.au/abc-privacy-policy/">Privacy Policy</a></li>
+  <li><a href="https://about.abc.net.au/accessibility-statement/">Accessibility</a></li>
+  <li><a href="https://about.abc.net.au/talk-to-the-abc/">Contact the ABC</a></li>
+  <li><a href="https://about.abc.net.au/terms-of-use/#UseOfContent">&copy; <time>2019</time> ABC</a></li>
+ </ul>
+</nav>
+
+<!-- ABC.Bundle Scripts -->
+<script type="text/javascript" src="https://res.abc.net.au/bundles/common/jquery-1.11.1.min.js"></script>
+<script type="text/javascript">var ABCAllowMultipleJQuery = true;</script>
+<script type="text/javascript" src="https://res.abc.net.au/bundles/2.5.0/scripts/abc.bundle.2.5.0.min.js"></script>
+<!-- End ABC.Bundle Scripts -->
+
+<!-- Nielsen Online SiteCensus V6.0 -->
+<!-- COPYRIGHT 2010 Nielsen Online -->
+<noscript><div><img src="//secure-au.imrworldwide.com/cgi-bin/m?ci=abc-aust&cg=0&cc=1&ts=noscript" width="1" height="1" alt=""></div></noscript>
+<!-- End Nielsen Online SiteCensus V6.0 -->
+
+<!-- Google Tag Manager -->
+<script type="text/javascript">
+ // <![CDATA[
+ (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+ new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+ '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+ })(window,document,'script','dataLayer','GTM-PB2GX');
+ // ]]>
+</script>
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-PB2GX" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager -->
+
+<!-- ABC MyLogin -->
+<script type="text/javascript" src="https://mylogin.abc.net.au/js/abc.mylogin.embedded.js"></script>
+<script type="text/javascript">ABC.MyLoginEmbedded.init();</script>
+<!-- End ABC MyLogin -->
+
+<!--endnoindex-->
+<!-- End ABC Bundle Footer 2.5.0 -->
+</body>
+  </html>

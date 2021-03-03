@@ -1,0 +1,1568 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie10 lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie10 lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie10 lt-ie9"> <![endif]-->
+<!--[if IE 9]>         <html class="no-js lt-ie10"> <![endif]-->
+<!--[if gt IE 9]><!-->
+<html class="no-js" ng-app="BlueRoom">
+<!--<![endif]-->
+<head>
+	<base href="/" />
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+
+
+
+
+<title>Now Showing - Blue Room Cinebar</title>
+
+
+    <meta name="description" content="Dinner, drinks and a movie without leaving your seat">
+ <meta name="keywords" content="Dinner, drinks, movie, Brisbane, Blue Room Cinebar, Blue, Room, Cinebar, Blueroom, Cinema, Rosalie Cinema"> 
+    <meta property="og:title" content="Now Showing">
+    <meta property="og:site_name" content="Blue Room Cinebar">
+    
+    <meta property="og:description" content="" id="og-description">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://app.blueroomcinebar.com/CDN/media/entity/get/FilmPosterGraphic/1000001013">
+    
+    
+    <meta name="apple-itunes-app" content="app-id=1255007684">
+    <link rel="manifest" href="/Assets/android-manifest.json">
+
+
+	
+	<script>
+  	(function (w,i,d,g,e,t,s) {w[d] = w[d]||[];t= i.createElement(g);
+    t.async=1;t.src=e;s=i.getElementsByTagName(g)[0];s.parentNode.insertBefore(t, s);
+  	})(window, document, '_gscq','script','//widgets.getsitecontrol.com/176416/script.js');
+	</script>
+
+	
+	<!--PROOF PIXEL-->
+	<script src="https://cdn.useproof.com/proof.js?acc=HJHyQL3yVNY1FyLnUF25y1FmwlP2" async>
+	</script>
+	<!--END PROOF PIXEL-->
+
+	
+
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-10544312-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-10544312-1');
+</script>
+	
+	
+	<!-- Google Tag Manager Added by David Taylor 18/1/2019 using tagmanager.google.com-->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-N3VVZSG');</script>
+<!-- End Google Tag Manager -->
+	
+
+		
+
+	
+	<script>
+        if (navigator.serviceWorker) {
+				navigator.serviceWorker.register('/sw.js').then(function (registration) {
+                    console.log('ServiceWorker registration successful with scope:', registration.scope);
+                    registration.unregister().then(function (successful) {
+                        // if boolean = true, unregister is successful
+                    });
+				}).catch(function (error) {
+					console.log('ServiceWorker registration failed:', error);
+				});
+			}
+	</script>
+
+	<link href="/Lib/css/vendor.css" media="all" rel="stylesheet" />
+	<link href="/Assets/fonts.css" media="all" rel="stylesheet" />
+	<link href="/Lib/css/blueroom.css" media="all" rel="stylesheet" />
+	
+		
+		
+		<!-- Facebook Pixel Code (ORIGINAL) -->
+	<script>
+			!function (f, b, e, v, n, t, s) {
+				if (f.fbq) return; n = f.fbq = function () {
+					n.callMethod ?
+						n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+				}; if (!f._fbq) f._fbq = n;
+				n.push = n; n.loaded = !0; n.version = '2.0'; n.queue = []; t = b.createElement(e); t.async = !0;
+				t.src = v; s = b.getElementsByTagName(e)[0]; s.parentNode.insertBefore(t, s)
+			}(window,
+				document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
+
+			fbq('init', '820609474710544');
+			fbq('track', "PageView");</script>
+	<noscript>
+		<img height="1" width="1" style="display:none"
+			 src="https://www.facebook.com/tr?id=820609474710544&ev=PageView&noscript=1" />
+	</noscript>
+	<!-- End Facebook Pixel Code -->
+				
+				
+
+</head>
+<body class="body--nowShowing">
+	
+	
+	
+		
+	
+				
+	<!-- Google Tag Manager (noscript) -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N3VVZSG"
+	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->			
+					
+				
+
+	
+<header class="reverse">
+    <div class="pre-header hidden-xs">
+        <div class="overlay"></div>
+        <div class="container text-right">
+            <nav ng-controller="menuCtrl">
+                <ul>
+                    <li ng-cloak>
+                        <a ng-show="!!loyaltyMember" class="nav-item" href="/rewards/dashboard/"><i class="fa fa-user"></i>&nbsp; <span >HI {{loyaltyMember.firstName | uppercase}}</span></a>
+                        <a ng-show="!loyaltyMember" class="nav-item" href="/rewards/login/"><span>Login/Register</span></a>
+                    </li>
+                    <li><a class="nav-item" href="/check-balance/"><i class="fa fa-gift"></i>&nbsp; Check Balance</a></li>
+                    <li><a class="social-item" href="https://www.facebook.com/BlueRoomCinebar/" target="_blank">
+    <span class="fa-stack">
+        <i class="fa fa-circle fa-inverse fa-stack-2x"></i>
+        <i class="fa fa-facebook fa-stack-1x"></i>
+    </span>
+</a>
+<a class="social-item" href="https://twitter.com/BlueRoomCinebar" target="_blank">
+    <span class="fa-stack">
+        <i class="fa fa-circle fa-inverse fa-stack-2x"></i>
+        <i class="fa fa-twitter fa-stack-1x"></i>
+    </span>
+</a>
+<a class="social-item" href="https://www.instagram.com/BlueRoomCinebar/" target="_blank">
+    <span class="fa-stack">
+        <i class="fa fa-circle fa-inverse fa-stack-2x"></i>
+        <i class="fa fa-instagram fa-stack-1x"></i>
+    </span>
+</a></li>
+					<li><a class="nav-item">   A BRISBANE FAMILY-OWNED SUCCESS STORY SINCE 2005      
+						
+					</li>
+					
+			     </ul>
+					</a>
+            </nav>
+        </div>
+    </div>
+    <div class="header">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-9 col-sm-3">
+                    <a class="logo" href="/">
+
+                    </a>
+                </div>
+                <div class="col-sm-9 text-right hidden-xs">
+                    <nav>
+                        <ul>
+                            <li><a class="nav-item " href="/">Home<hr /></a></li>
+                                        <li>
+                                            <a class="nav-item active" href="/movies/">Movies<hr /></a>
+                                                <ul>
+                                                        <li>
+                                                            <a class="nav-item" href="/movies/now-showing/">Now Showing</a>
+                                                        </li>
+                                                        <li>
+                                                            <a class="nav-item" href="/movies/coming-soon/">Coming Soon</a>
+                                                        </li>
+                                                        <li>
+                                                            <a class="nav-item" href="/movies/advanced-screening/">Pre-Sale Tickets</a>
+                                                        </li>
+                                                        <li>
+                                                            <a class="nav-item" href="/movies/bubs-in-arms/">Bubs in Arms</a>
+                                                        </li>
+                                                        <li>
+                                                            <a class="nav-item" href="/movies/subtitled-screenings/">Subtitled Screenings</a>
+                                                        </li>
+                                                </ul>
+                                        </li>
+                                        <li>
+                                            <a class="nav-item " href="/menu/">Menu<hr /></a>
+                                        </li>
+                                        <li>
+                                            <a class="nav-item " href="/rewards/">Rewards<hr /></a>
+                                        </li>
+                                        <li>
+                                            <a class="nav-item " href="/giftcards/">GiftCards<hr /></a>
+                                        </li>
+                                        <li>
+                                            <a class="nav-item " href="/functions/">Functions<hr /></a>
+                                        </li>
+                                        <li>
+                                            <a class="nav-item " href="/reviews/">Reviews<hr /></a>
+                                        </li>
+                                        <li>
+                                            <a class="nav-item " href="/contact/">Contact<hr /></a>
+                                        </li>
+                                        <li>
+                                            <a class="nav-item " href="/deals/">Deals<hr /></a>
+                                        </li>
+
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-xs-3 text-right visible-xs-inline-block">
+                    <a id="menu-btn" href="javascript://">
+                        <span class="fa-stack fa-lg">
+                            <i class="fa fa-bars fa-inverse fa-stack-2x" style="font-size: 1.7em; top: 4px;"></i>
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</header>
+	
+
+
+<div class="container">
+
+    <!--todo: fix responsive layout -->
+<div class="row section-header no-printable">
+	<div class="col-sm-4 hidden-xs text-right">
+		<hr />
+	</div>
+	<div class="col-sm-4 col-xs-12">
+		<div class="section-header__title">
+			<div>
+				<h3>Now Showing</h3>
+			</div>
+		</div>
+	</div>
+	<div class="col-sm-4 hidden-xs">
+			<hr />
+
+
+	</div>
+</div>
+
+
+<div class="film-list__wrapper">
+	<div class="text-center indicator">
+		<p>&nbsp;</p>
+		<i class="fa fa-refresh fa-spin fa-3x fa-fw"></i>
+		<p>&nbsp;</p>
+	</div>
+
+	<div class="no-printable" ng-cloak >
+				<div class="row row-header">
+					<div class="col-sm-6">
+							<select id="session-date" onchange="changeDateSession(this);" class="form-control input-lg">
+									<option value="Sun 19 May 2019">Sun 19 May 2019</option>
+									<option value="Mon 20 May 2019">Mon 20 May 2019</option>
+									<option value="Tue 21 May 2019">Tue 21 May 2019</option>
+									<option value="Wed 22 May 2019">Wed 22 May 2019</option>
+									<option value="Sat 25 May 2019">Sat 25 May 2019</option>
+							</select>
+					</div>
+					<div class="col-sm-6 text-right">
+						<a href="javascript://" onclick="window.print();" class="btn btn-default btn-lg">Print Friendly PDF</a>
+					</div>
+				</div>
+			<div class="films">
+
+				<div class="row">
+						<div class="col-sm-6 col-md-4 col-lg-3 film">
+							<a href="/movie-details/?film=1000001022">
+								<div class="poster" style="background-image: url(https://app.blueroomcinebar.com/CDN/media/entity/get/FilmPosterGraphic/1000001022?width=245&amp;allowPlaceHolder=true)">
+									<div class="overlay"></div>
+									<div class="hover-info">
+										<div class="hover-content">
+											<p>
+												<i class="fa fa-2x fa-video-camera"></i>
+											</p>
+											<p>INFO / TRAILER</p>
+										</div>
+									</div>
+								</div>
+								<h4 class="movie-title">Avengers: Endgame</h4>
+							</a>
+							<div>
+										<ul class="session-list">
+													<li date="Sun 19 May 2019" style="display: none;">
+														<a href="purchase/select-seats/?film=1000001022&amp;session=76312" class="" title="">
+															<p>6:00 PM</p>
+														</a>
+													</li>
+													<li date="Sun 19 May 2019" style="display: none;">
+														<a href="purchase/select-seats/?film=1000001022&amp;session=76329" class="" title="">
+															<p>7:55 PM</p>
+														</a>
+													</li>
+
+
+										</ul>
+										<ul class="session-list">
+													<li date="Mon 20 May 2019" style="display: none;">
+														<a href="purchase/select-seats/?film=1000001022&amp;session=76152" class="" title="">
+															<p>9:45 AM</p>
+														</a>
+													</li>
+													<li date="Mon 20 May 2019" style="display: none;">
+														<a href="purchase/select-seats/?film=1000001022&amp;session=76154" class="" title="">
+															<p>12:30 PM</p>
+														</a>
+													</li>
+													<li date="Mon 20 May 2019" style="display: none;">
+														<a href="purchase/select-seats/?film=1000001022&amp;session=76160" class="" title="">
+															<p>6:20 PM</p>
+														</a>
+													</li>
+													<li date="Mon 20 May 2019" style="display: none;">
+														<a href="purchase/select-seats/?film=1000001022&amp;session=76173" class="" title="">
+															<p>8:15 PM</p>
+														</a>
+													</li>
+
+
+										</ul>
+										<ul class="session-list">
+													<li date="Tue 21 May 2019" style="display: none;">
+														<a href="purchase/select-seats/?film=1000001022&amp;session=76332" class="" title="">
+															<p>9:45 AM</p>
+														</a>
+													</li>
+													<li date="Tue 21 May 2019" style="display: none;">
+														<a href="purchase/select-seats/?film=1000001022&amp;session=76338" class="" title="">
+															<p>12:20 PM</p>
+														</a>
+													</li>
+													<li date="Tue 21 May 2019" style="display: none;">
+														<a href="purchase/select-seats/?film=1000001022&amp;session=76365" class="" title="">
+															<p>2:35 PM</p>
+														</a>
+													</li>
+													<li date="Tue 21 May 2019" style="display: none;">
+														<a href="purchase/select-seats/?film=1000001022&amp;session=76340" class="" title="">
+															<p>6:25 PM</p>
+														</a>
+													</li>
+													<li date="Tue 21 May 2019" style="display: none;">
+														<a href="purchase/select-seats/?film=1000001022&amp;session=76351" class="" title="">
+															<p>8:20 PM</p>
+														</a>
+													</li>
+
+
+										</ul>
+										<ul class="session-list">
+													<li date="Wed 22 May 2019" style="display: none;">
+														<a href="purchase/select-seats/?film=1000001022&amp;session=76208" class="" title="">
+															<p>9:45 AM</p>
+														</a>
+													</li>
+													<li date="Wed 22 May 2019" style="display: none;">
+														<a href="purchase/select-seats/?film=1000001022&amp;session=76210" class="" title="">
+															<p>1:05 PM</p>
+														</a>
+													</li>
+													<li date="Wed 22 May 2019" style="display: none;">
+														<a href="purchase/select-seats/?film=1000001022&amp;session=76216" class="" title="">
+															<p>6:30 PM</p>
+														</a>
+													</li>
+
+
+										</ul>
+							</div>
+
+						</div>
+						<div class="col-sm-6 col-md-4 col-lg-3 film">
+							<a href="/movie-details/?film=1000001065">
+								<div class="poster" style="background-image: url(https://app.blueroomcinebar.com/CDN/media/entity/get/FilmPosterGraphic/1000001065?width=245&amp;allowPlaceHolder=true)">
+									<div class="overlay"></div>
+									<div class="hover-info">
+										<div class="hover-content">
+											<p>
+												<i class="fa fa-2x fa-video-camera"></i>
+											</p>
+											<p>INFO / TRAILER</p>
+										</div>
+									</div>
+								</div>
+								<h4 class="movie-title">Long Shot</h4>
+							</a>
+							<div>
+										<ul class="session-list">
+													<li date="Sun 19 May 2019" style="display: none;">
+														<a href="purchase/select-seats/?film=1000001065&amp;session=76308" class="" title="">
+															<p>9:25 PM</p>
+														</a>
+													</li>
+
+
+										</ul>
+										<ul class="session-list">
+													<li date="Mon 20 May 2019" style="display: none;">
+														<a href="purchase/select-seats/?film=1000001065&amp;session=76164" class="" title="">
+															<p>12:30 PM</p>
+														</a>
+													</li>
+													<li date="Mon 20 May 2019" style="display: none;">
+														<a href="purchase/select-seats/?film=1000001065&amp;session=76156" class="" title="">
+															<p>9:40 PM</p>
+														</a>
+													</li>
+
+
+										</ul>
+										<ul class="session-list">
+													<li date="Tue 21 May 2019" style="display: none;">
+														<a href="purchase/select-seats/?film=1000001065&amp;session=76343" class="" title="">
+															<p>12:10 PM</p>
+														</a>
+													</li>
+													<li date="Tue 21 May 2019" style="display: none;">
+														<a href="purchase/select-seats/?film=1000001065&amp;session=76341" class="" title="">
+															<p>9:45 PM</p>
+														</a>
+													</li>
+
+
+										</ul>
+										<ul class="session-list">
+													<li date="Wed 22 May 2019" style="display: none;">
+														<a href="purchase/select-seats/?film=1000001065&amp;session=76220" class="" title="">
+															<p>1:55 PM</p>
+														</a>
+													</li>
+													<li date="Wed 22 May 2019" style="display: none;">
+														<a href="purchase/select-seats/?film=1000001065&amp;session=76357" class="" title="">
+															<p>9:00 PM</p>
+														</a>
+													</li>
+
+
+										</ul>
+							</div>
+
+						</div>
+						<div class="col-sm-6 col-md-4 col-lg-3 film">
+							<a href="/movie-details/?film=1000001123">
+								<div class="poster" style="background-image: url(https://app.blueroomcinebar.com/CDN/media/entity/get/FilmPosterGraphic/1000001123?width=245&amp;allowPlaceHolder=true)">
+									<div class="overlay"></div>
+									<div class="hover-info">
+										<div class="hover-content">
+											<p>
+												<i class="fa fa-2x fa-video-camera"></i>
+											</p>
+											<p>INFO / TRAILER</p>
+										</div>
+									</div>
+								</div>
+								<h4 class="movie-title">OCAP Top End Wedding</h4>
+							</a>
+							<div>
+										<ul class="session-list">
+													<li date="Sat 25 May 2019" style="display: none;">
+														<a href="purchase/select-seats/?film=1000001123&amp;session=76506" class="" title="">
+															<p>12:30 PM</p>
+														</a>
+													</li>
+
+
+										</ul>
+							</div>
+
+						</div>
+						<div class="col-sm-6 col-md-4 col-lg-3 film">
+							<a href="/movie-details/?film=1000001067">
+								<div class="poster" style="background-image: url(https://app.blueroomcinebar.com/CDN/media/entity/get/FilmPosterGraphic/1000001067?width=245&amp;allowPlaceHolder=true)">
+									<div class="overlay"></div>
+									<div class="hover-info">
+										<div class="hover-content">
+											<p>
+												<i class="fa fa-2x fa-video-camera"></i>
+											</p>
+											<p>INFO / TRAILER</p>
+										</div>
+									</div>
+								</div>
+								<h4 class="movie-title">Top End Wedding</h4>
+							</a>
+							<div>
+										<ul class="session-list">
+													<li date="Sun 19 May 2019" style="display: none;">
+														<a href="purchase/select-seats/?film=1000001067&amp;session=76326" class="" title="">
+															<p>3:50 PM</p>
+														</a>
+													</li>
+													<li date="Sun 19 May 2019" style="display: none;">
+														<a href="purchase/select-seats/?film=1000001067&amp;session=76305" class="" title="">
+															<p>6:25 PM</p>
+														</a>
+													</li>
+													<li date="Sun 19 May 2019" style="display: none;">
+														<a href="purchase/select-seats/?film=1000001067&amp;session=76306" class="" title="">
+															<p>8:30 PM</p>
+														</a>
+													</li>
+
+
+										</ul>
+										<ul class="session-list">
+													<li date="Mon 20 May 2019" style="display: none;">
+														<a href="purchase/select-seats/?film=1000001067&amp;session=76168" class="" title="">
+															<p>9:45 AM</p>
+														</a>
+													</li>
+													<li date="Mon 20 May 2019" style="display: none;">
+														<a href="purchase/select-seats/?film=1000001067&amp;session=76331" class="" title="">
+															<p>12:30 PM</p>
+														</a>
+													</li>
+													<li date="Mon 20 May 2019" style="display: none;">
+														<a href="purchase/select-seats/?film=1000001067&amp;session=76159" class="" title="">
+															<p>3:20 PM</p>
+														</a>
+													</li>
+
+
+										</ul>
+										<ul class="session-list">
+													<li date="Tue 21 May 2019" style="display: none;">
+														<a href="purchase/select-seats/?film=1000001067&amp;session=76347" class="" title="">
+															<p>9:45 AM</p>
+														</a>
+													</li>
+													<li date="Tue 21 May 2019" style="display: none;">
+														<a href="purchase/select-seats/?film=1000001067&amp;session=76353" class="" title="">
+															<p>12:15 PM</p>
+														</a>
+													</li>
+													<li date="Tue 21 May 2019" style="display: none;">
+														<a href="purchase/select-seats/?film=1000001067&amp;session=76334" class="" title="">
+															<p>3:20 PM</p>
+														</a>
+													</li>
+
+
+										</ul>
+										<ul class="session-list">
+													<li date="Wed 22 May 2019" style="display: none;">
+														<a href="purchase/select-seats/?film=1000001067&amp;session=76223" class="" title="">
+															<p>9:45 AM</p>
+														</a>
+													</li>
+													<li date="Wed 22 May 2019" style="display: none;">
+														<a href="purchase/select-seats/?film=1000001067&amp;session=76224" class="" title="">
+															<p>11:50 AM</p>
+														</a>
+													</li>
+													<li date="Wed 22 May 2019" style="display: none;">
+														<a href="purchase/select-seats/?film=1000001067&amp;session=76215" class="" title="">
+															<p>4:20 PM</p>
+														</a>
+													</li>
+													<li date="Wed 22 May 2019" style="display: none;">
+														<a href="purchase/select-seats/?film=1000001067&amp;session=76358" class="" title="">
+															<p>8:35 PM</p>
+														</a>
+													</li>
+
+
+										</ul>
+							</div>
+
+						</div>
+						<div class="col-sm-6 col-md-4 col-lg-3 film">
+							<a href="/movie-details/?film=1000001016">
+								<div class="poster" style="background-image: url(https://app.blueroomcinebar.com/CDN/media/entity/get/FilmPosterGraphic/1000001016?width=245&amp;allowPlaceHolder=true)">
+									<div class="overlay"></div>
+									<div class="hover-info">
+										<div class="hover-content">
+											<p>
+												<i class="fa fa-2x fa-video-camera"></i>
+											</p>
+											<p>INFO / TRAILER</p>
+										</div>
+									</div>
+								</div>
+								<h4 class="movie-title">Pokemon Detective Pikachu</h4>
+							</a>
+							<div>
+										<ul class="session-list">
+													<li date="Sun 19 May 2019" style="display: none;">
+														<a href="purchase/select-seats/?film=1000001016&amp;session=76307" class="" title="">
+															<p>6:00 PM</p>
+														</a>
+													</li>
+
+
+										</ul>
+										<ul class="session-list">
+													<li date="Mon 20 May 2019" style="display: none;">
+														<a href="purchase/select-seats/?film=1000001016&amp;session=76158" class="" title="">
+															<p>1:10 PM</p>
+														</a>
+													</li>
+													<li date="Mon 20 May 2019" style="display: none;">
+														<a href="purchase/select-seats/?film=1000001016&amp;session=76177" class="" title="">
+															<p>3:15 PM</p>
+														</a>
+													</li>
+													<li date="Mon 20 May 2019" style="display: none;">
+														<a href="purchase/select-seats/?film=1000001016&amp;session=76178" class="" title="">
+															<p>6:20 PM</p>
+														</a>
+													</li>
+													<li date="Mon 20 May 2019" style="display: none;">
+														<a href="purchase/select-seats/?film=1000001016&amp;session=76179" class="" title="">
+															<p>8:25 PM</p>
+														</a>
+													</li>
+
+
+										</ul>
+										<ul class="session-list">
+													<li date="Tue 21 May 2019" style="display: none;">
+														<a href="purchase/select-seats/?film=1000001016&amp;session=76333" class="" title="">
+															<p>1:10 PM</p>
+														</a>
+													</li>
+													<li date="Tue 21 May 2019" style="display: none;">
+														<a href="purchase/select-seats/?film=1000001016&amp;session=76354" class="" title="">
+															<p>2:35 PM</p>
+														</a>
+													</li>
+													<li date="Tue 21 May 2019" style="display: none;">
+														<a href="purchase/select-seats/?film=1000001016&amp;session=76355" class="" title="">
+															<p>6:25 PM</p>
+														</a>
+													</li>
+													<li date="Tue 21 May 2019" style="display: none;">
+														<a href="purchase/select-seats/?film=1000001016&amp;session=76356" class="" title="">
+															<p>8:30 PM</p>
+														</a>
+													</li>
+
+
+										</ul>
+										<ul class="session-list">
+													<li date="Wed 22 May 2019" style="display: none;">
+														<a href="purchase/select-seats/?film=1000001016&amp;session=76214" class="" title="">
+															<p>1:55 PM</p>
+														</a>
+													</li>
+													<li date="Wed 22 May 2019" style="display: none;">
+														<a href="purchase/select-seats/?film=1000001016&amp;session=76232" class="" title="">
+															<p>4:10 PM</p>
+														</a>
+													</li>
+													<li date="Wed 22 May 2019" style="display: none;">
+														<a href="purchase/select-seats/?film=1000001016&amp;session=76233" class="" title="">
+															<p>6:30 PM</p>
+														</a>
+													</li>
+
+
+										</ul>
+							</div>
+
+						</div>
+						<div class="col-sm-6 col-md-4 col-lg-3 film">
+							<a href="/movie-details/?film=1000001109">
+								<div class="poster" style="background-image: url(https://app.blueroomcinebar.com/CDN/media/entity/get/FilmPosterGraphic/1000001109?width=245&amp;allowPlaceHolder=true)">
+									<div class="overlay"></div>
+									<div class="hover-info">
+										<div class="hover-content">
+											<p>
+												<i class="fa fa-2x fa-video-camera"></i>
+											</p>
+											<p>INFO / TRAILER</p>
+										</div>
+									</div>
+								</div>
+								<h4 class="movie-title">Poms</h4>
+							</a>
+							<div>
+										<ul class="session-list">
+													<li date="Sun 19 May 2019" style="display: none;">
+														<a href="purchase/select-seats/?film=1000001109&amp;session=76303" class="" title="">
+															<p>4:35 PM</p>
+														</a>
+													</li>
+
+
+										</ul>
+										<ul class="session-list">
+													<li date="Mon 20 May 2019" style="display: none;">
+														<a href="purchase/select-seats/?film=1000001109&amp;session=76174" class="" title="">
+															<p>9:45 AM</p>
+														</a>
+													</li>
+													<li date="Mon 20 May 2019" style="display: none;">
+														<a href="purchase/select-seats/?film=1000001109&amp;session=76330" class="" title="">
+															<p>4:00 PM</p>
+														</a>
+													</li>
+													<li date="Mon 20 May 2019" style="display: none;">
+														<a href="purchase/select-seats/?film=1000001109&amp;session=76155" class="" title="">
+															<p>6:20 PM</p>
+														</a>
+													</li>
+
+
+										</ul>
+										<ul class="session-list">
+													<li date="Tue 21 May 2019" style="display: none;">
+														<a href="purchase/select-seats/?film=1000001109&amp;session=76352" class="" title="">
+															<p>9:45 AM</p>
+														</a>
+													</li>
+													<li date="Tue 21 May 2019" style="display: none;">
+														<a href="purchase/select-seats/?film=1000001109&amp;session=76339" class="" title="">
+															<p>4:35 PM</p>
+														</a>
+													</li>
+
+
+										</ul>
+										<ul class="session-list">
+													<li date="Wed 22 May 2019" style="display: none;">
+														<a href="purchase/select-seats/?film=1000001109&amp;session=76229" class="" title="">
+															<p>9:45 AM</p>
+														</a>
+													</li>
+													<li date="Wed 22 May 2019" style="display: none;">
+														<a href="purchase/select-seats/?film=1000001109&amp;session=76230" class="" title="">
+															<p>11:50 AM</p>
+														</a>
+													</li>
+													<li date="Wed 22 May 2019" style="display: none;">
+														<a href="purchase/select-seats/?film=1000001109&amp;session=76267" class="" title="">
+															<p>2:45 PM</p>
+														</a>
+													</li>
+													<li date="Wed 22 May 2019" style="display: none;">
+														<a href="purchase/select-seats/?film=1000001109&amp;session=76209" class="" title="">
+															<p>4:30 PM</p>
+														</a>
+													</li>
+													<li date="Wed 22 May 2019" style="display: none;">
+														<a href="purchase/select-seats/?film=1000001109&amp;session=76211" class="" title="">
+															<p>9:00 PM</p>
+														</a>
+													</li>
+
+
+										</ul>
+							</div>
+
+						</div>
+						<div class="col-sm-6 col-md-4 col-lg-3 film">
+							<a href="/movie-details/?film=1000001054">
+								<div class="poster" style="background-image: url(https://app.blueroomcinebar.com/CDN/media/entity/get/FilmPosterGraphic/1000001054?width=245&amp;allowPlaceHolder=true)">
+									<div class="overlay"></div>
+									<div class="hover-info">
+										<div class="hover-content">
+											<p>
+												<i class="fa fa-2x fa-video-camera"></i>
+											</p>
+											<p>INFO / TRAILER</p>
+										</div>
+									</div>
+								</div>
+								<h4 class="movie-title">The Hustle</h4>
+							</a>
+							<div>
+										<ul class="session-list">
+													<li date="Sun 19 May 2019" style="display: none;">
+														<a href="purchase/select-seats/?film=1000001054&amp;session=76302" class="" title="">
+															<p>3:20 PM</p>
+														</a>
+													</li>
+													<li date="Sun 19 May 2019" style="display: none;">
+														<a href="purchase/select-seats/?film=1000001054&amp;session=76311" class="" title="">
+															<p>6:00 PM</p>
+														</a>
+													</li>
+													<li date="Sun 19 May 2019" style="display: none;">
+														<a href="purchase/select-seats/?film=1000001054&amp;session=76310" class="" title="">
+															<p>8:10 PM</p>
+														</a>
+													</li>
+
+
+										</ul>
+										<ul class="session-list">
+													<li date="Mon 20 May 2019" style="display: none;">
+														<a href="purchase/select-seats/?film=1000001054&amp;session=76162" class="" title="">
+															<p>9:45 AM</p>
+														</a>
+													</li>
+													<li date="Mon 20 May 2019" style="display: none;">
+														<a href="purchase/select-seats/?film=1000001054&amp;session=76170" class="" title="">
+															<p>12:30 PM</p>
+														</a>
+													</li>
+													<li date="Mon 20 May 2019" style="display: none;">
+														<a href="purchase/select-seats/?film=1000001054&amp;session=76165" class="" title="">
+															<p>3:15 PM</p>
+														</a>
+													</li>
+													<li date="Mon 20 May 2019" style="display: none;">
+														<a href="purchase/select-seats/?film=1000001054&amp;session=76172" class="" title="">
+															<p>6:20 PM</p>
+														</a>
+													</li>
+
+
+										</ul>
+										<ul class="session-list">
+													<li date="Tue 21 May 2019" style="display: none;">
+														<a href="purchase/select-seats/?film=1000001054&amp;session=76342" class="" title="">
+															<p>9:45 AM</p>
+														</a>
+													</li>
+													<li date="Tue 21 May 2019" style="display: none;">
+														<a href="purchase/select-seats/?film=1000001054&amp;session=76348" class="" title="">
+															<p>12:15 PM</p>
+														</a>
+													</li>
+													<li date="Tue 21 May 2019" style="display: none;">
+														<a href="purchase/select-seats/?film=1000001054&amp;session=76344" class="" title="">
+															<p>2:35 PM</p>
+														</a>
+													</li>
+													<li date="Tue 21 May 2019" style="display: none;">
+														<a href="purchase/select-seats/?film=1000001054&amp;session=76350" class="" title="">
+															<p>6:25 PM</p>
+														</a>
+													</li>
+													<li date="Tue 21 May 2019" style="display: none;">
+														<a href="purchase/select-seats/?film=1000001054&amp;session=76336" class="" title="">
+															<p>8:20 PM</p>
+														</a>
+													</li>
+
+
+										</ul>
+										<ul class="session-list">
+													<li date="Wed 22 May 2019" style="display: none;">
+														<a href="purchase/select-seats/?film=1000001054&amp;session=76218" class="" title="">
+															<p>9:45 AM</p>
+														</a>
+													</li>
+													<li date="Wed 22 May 2019" style="display: none;">
+														<a href="purchase/select-seats/?film=1000001054&amp;session=76219" class="" title="">
+															<p>11:50 AM</p>
+														</a>
+													</li>
+													<li date="Wed 22 May 2019" style="display: none;">
+														<a href="purchase/select-seats/?film=1000001054&amp;session=76225" class="" title="">
+															<p>1:55 PM</p>
+														</a>
+													</li>
+													<li date="Wed 22 May 2019" style="display: none;">
+														<a href="purchase/select-seats/?film=1000001054&amp;session=76221" class="" title="">
+															<p>4:20 PM</p>
+														</a>
+													</li>
+													<li date="Wed 22 May 2019" style="display: none;">
+														<a href="purchase/select-seats/?film=1000001054&amp;session=76217" class="" title="">
+															<p>8:10 PM</p>
+														</a>
+													</li>
+
+
+										</ul>
+							</div>
+
+						</div>
+						<div class="col-sm-6 col-md-4 col-lg-3 film">
+							<a href="/movie-details/?film=1000001035">
+								<div class="poster" style="background-image: url(https://app.blueroomcinebar.com/CDN/media/entity/get/FilmPosterGraphic/1000001035?width=245&amp;allowPlaceHolder=true)">
+									<div class="overlay"></div>
+									<div class="hover-info">
+										<div class="hover-content">
+											<p>
+												<i class="fa fa-2x fa-video-camera"></i>
+											</p>
+											<p>INFO / TRAILER</p>
+										</div>
+									</div>
+								</div>
+								<h4 class="movie-title">John Wick - Parabellum</h4>
+							</a>
+							<div>
+										<ul class="session-list">
+													<li date="Sun 19 May 2019" style="display: none;">
+														<a href="purchase/select-seats/?film=1000001035&amp;session=76052" class="" title="">
+															<p>3:20 PM</p>
+														</a>
+													</li>
+													<li date="Sun 19 May 2019" style="display: none;">
+														<a href="purchase/select-seats/?film=1000001035&amp;session=76053" class="" title="">
+															<p>6:00 PM</p>
+														</a>
+													</li>
+													<li date="Sun 19 May 2019" style="display: none;">
+														<a href="purchase/select-seats/?film=1000001035&amp;session=76309" class="" title="">
+															<p>8:35 PM</p>
+														</a>
+													</li>
+
+
+										</ul>
+										<ul class="session-list">
+													<li date="Mon 20 May 2019" style="display: none;">
+														<a href="purchase/select-seats/?film=1000001035&amp;session=76157" class="" title="">
+															<p>9:45 AM</p>
+														</a>
+													</li>
+													<li date="Mon 20 May 2019" style="display: none;">
+														<a href="purchase/select-seats/?film=1000001035&amp;session=76171" class="" title="">
+															<p>3:15 PM</p>
+														</a>
+													</li>
+													<li date="Mon 20 May 2019" style="display: none;">
+														<a href="purchase/select-seats/?film=1000001035&amp;session=76166" class="" title="">
+															<p>6:20 PM</p>
+														</a>
+													</li>
+													<li date="Mon 20 May 2019" style="display: none;">
+														<a href="purchase/select-seats/?film=1000001035&amp;session=76176" class="" title="">
+															<p>8:50 PM</p>
+														</a>
+													</li>
+
+
+										</ul>
+										<ul class="session-list">
+													<li date="Tue 21 May 2019" style="display: none;">
+														<a href="purchase/select-seats/?film=1000001035&amp;session=76337" class="" title="">
+															<p>9:45 AM</p>
+														</a>
+													</li>
+													<li date="Tue 21 May 2019" style="display: none;">
+														<a href="purchase/select-seats/?film=1000001035&amp;session=76349" class="" title="">
+															<p>3:45 PM</p>
+														</a>
+													</li>
+													<li date="Tue 21 May 2019" style="display: none;">
+														<a href="purchase/select-seats/?film=1000001035&amp;session=76345" class="" title="">
+															<p>6:25 PM</p>
+														</a>
+													</li>
+													<li date="Tue 21 May 2019" style="display: none;">
+														<a href="purchase/select-seats/?film=1000001035&amp;session=76346" class="" title="">
+															<p>8:55 PM</p>
+														</a>
+													</li>
+
+
+										</ul>
+										<ul class="session-list">
+													<li date="Wed 22 May 2019" style="display: none;">
+														<a href="purchase/select-seats/?film=1000001035&amp;session=76213" class="" title="">
+															<p>9:45 AM</p>
+														</a>
+													</li>
+													<li date="Wed 22 May 2019" style="display: none;">
+														<a href="purchase/select-seats/?film=1000001035&amp;session=76231" class="" title="">
+															<p>12:15 PM</p>
+														</a>
+													</li>
+													<li date="Wed 22 May 2019" style="display: none;">
+														<a href="purchase/select-seats/?film=1000001035&amp;session=76226" class="" title="">
+															<p>4:00 PM</p>
+														</a>
+													</li>
+													<li date="Wed 22 May 2019" style="display: none;">
+														<a href="purchase/select-seats/?film=1000001035&amp;session=76222" class="" title="">
+															<p>6:30 PM</p>
+														</a>
+													</li>
+
+
+										</ul>
+							</div>
+
+						</div>
+				</div>
+
+
+			</div>
+
+
+	</div>
+	<div class="printable">
+<div class="ptb-movieSessions--wrapper">
+	<img src="/Assets/img/logo.png"/><br/><br />
+
+		<ul class="ptb-movieTitle">
+			<li>
+				<h1>Avengers: Endgame</h1>
+				<p>After the devastating events of Avengers: Infinity War (2018), the universe is in ruins due to the efforts of the Mad Titan, Thanos. With the help of remaining allies, the Avengers must assemble once more in order to undo Thanos&#39; actions and restore order to the universe once and for all, no matter what consequences may be in store.</p>
+
+				<ul class="ptb-movieDate">
+						<li>
+							<h4>Sun 19 May 2019</h4>
+							<ul class="ptb-movieSession ">
+									<li>06:00 PM</li>
+									<li>07:55 PM</li>
+							</ul>
+						</li>
+						<li>
+							<h4>Mon 20 May 2019</h4>
+							<ul class="ptb-movieSession ">
+									<li>09:45 AM</li>
+									<li>12:30 PM</li>
+									<li>06:20 PM</li>
+									<li>08:15 PM</li>
+							</ul>
+						</li>
+						<li>
+							<h4>Tue 21 May 2019</h4>
+							<ul class="ptb-movieSession ">
+									<li>09:45 AM</li>
+									<li>12:20 PM</li>
+									<li>02:35 PM</li>
+									<li>06:25 PM</li>
+									<li>08:20 PM</li>
+							</ul>
+						</li>
+						<li>
+							<h4>Wed 22 May 2019</h4>
+							<ul class="ptb-movieSession ">
+									<li>09:45 AM</li>
+									<li>01:05 PM</li>
+									<li>06:30 PM</li>
+							</ul>
+						</li>
+				</ul>
+			</li>
+
+		</ul>
+		<ul class="ptb-movieTitle">
+			<li>
+				<h1>John Wick - Parabellum</h1>
+				<p>In this third installment of the adrenaline-fueled action franchise, super-assassin John Wick (Keanu Reeves) returns with a $14 million price tag on his head and an army of bounty-hunting killers on his trail. After killing a member of the shadowy international assassin’s guild, the High Table, John Wick is excommunicado, but the world’s most ruthless hit men and women await his every turn.</p>
+
+				<ul class="ptb-movieDate">
+						<li>
+							<h4>Sun 19 May 2019</h4>
+							<ul class="ptb-movieSession ">
+									<li>03:20 PM</li>
+									<li>06:00 PM</li>
+									<li>08:35 PM</li>
+							</ul>
+						</li>
+						<li>
+							<h4>Mon 20 May 2019</h4>
+							<ul class="ptb-movieSession ">
+									<li>09:45 AM</li>
+									<li>03:15 PM</li>
+									<li>06:20 PM</li>
+									<li>08:50 PM</li>
+							</ul>
+						</li>
+						<li>
+							<h4>Tue 21 May 2019</h4>
+							<ul class="ptb-movieSession ">
+									<li>09:45 AM</li>
+									<li>03:45 PM</li>
+									<li>06:25 PM</li>
+									<li>08:55 PM</li>
+							</ul>
+						</li>
+						<li>
+							<h4>Wed 22 May 2019</h4>
+							<ul class="ptb-movieSession ">
+									<li>09:45 AM</li>
+									<li>12:15 PM</li>
+									<li>04:00 PM</li>
+									<li>06:30 PM</li>
+							</ul>
+						</li>
+				</ul>
+			</li>
+
+		</ul>
+		<ul class="ptb-movieTitle">
+			<li>
+				<h1>Long Shot</h1>
+				<p>Charlotte Field (Charlize Theron) is one of the most influential women in the world.  Smart, sophisticated, and accomplished, she’s a powerhouse diplomat with a talent for…well, mostly everything. Fred Flarsky (Seth Rogen) is a gifted and free spirited journalist with a self-destructive streak. The two have nothing in common, except that she was his baby sitter and first crush. When Fred unexpectedly reunites with Charlotte, he charms her with his self-deprecating humour and his memories of her youthful idealism. As she prepares to make a run for the Presidency, Charlotte impulsively hires Fred as her speechwriter, much to the dismay of her trusted advisors.
+A fish out of water on Charlotte’s elite team, Fred is unprepared for her glamourous and high stakes lifestyle. However, sparks fly as their unmistakable chemistry leads to a round-the-world romance that becomes embroiled in a series of dangerous and outlandish incidents.
+</p>
+
+				<ul class="ptb-movieDate">
+						<li>
+							<h4>Sun 19 May 2019</h4>
+							<ul class="ptb-movieSession ">
+									<li>09:25 PM</li>
+							</ul>
+						</li>
+						<li>
+							<h4>Mon 20 May 2019</h4>
+							<ul class="ptb-movieSession ">
+									<li>12:30 PM</li>
+									<li>09:40 PM</li>
+							</ul>
+						</li>
+						<li>
+							<h4>Tue 21 May 2019</h4>
+							<ul class="ptb-movieSession ">
+									<li>12:10 PM</li>
+									<li>09:45 PM</li>
+							</ul>
+						</li>
+						<li>
+							<h4>Wed 22 May 2019</h4>
+							<ul class="ptb-movieSession ">
+									<li>01:55 PM</li>
+									<li>09:00 PM</li>
+							</ul>
+						</li>
+				</ul>
+			</li>
+
+		</ul>
+		<ul class="ptb-movieTitle">
+			<li>
+				<h1>OCAP Top End Wedding</h1>
+				<p>Lauren and Ned are engaged, they are in love, and they have just ten days to find Lauren&#39;s mother who has gone AWOL somewhere in the remote far north of Australia, reunite her parents and pull off their dream wedding.</p>
+
+				<ul class="ptb-movieDate">
+						<li>
+							<h4>Sat 25 May 2019</h4>
+							<ul class="ptb-movieSession ">
+									<li>12:30 PM</li>
+							</ul>
+						</li>
+				</ul>
+			</li>
+
+		</ul>
+		<ul class="ptb-movieTitle">
+			<li>
+				<h1>Pokemon Detective Pikachu</h1>
+				<p>Legendary Entertainment&#39;s DETECTIVE PIKACHU is the first live-action film based on the globally popular Pokemon franchise and will star Ryan Reynolds, Justice Smith (Jurassic World: Fallen Kingdom) and Kathryn Newton (Big Little Lies). Rob Letterman will direct. Pokemon has delighted fans of all ages around the world for over two decades. With more than 300 million video games sold worldwide, 23.6 billion Pokemon TCG cards shipped to 74 countries, and an animated series spanning 20 seasons, Pokemon is one of the most successful entertainment properties in the world.</p>
+
+				<ul class="ptb-movieDate">
+						<li>
+							<h4>Sun 19 May 2019</h4>
+							<ul class="ptb-movieSession ">
+									<li>06:00 PM</li>
+							</ul>
+						</li>
+						<li>
+							<h4>Mon 20 May 2019</h4>
+							<ul class="ptb-movieSession ">
+									<li>01:10 PM</li>
+									<li>03:15 PM</li>
+									<li>06:20 PM</li>
+									<li>08:25 PM</li>
+							</ul>
+						</li>
+						<li>
+							<h4>Tue 21 May 2019</h4>
+							<ul class="ptb-movieSession ">
+									<li>01:10 PM</li>
+									<li>02:35 PM</li>
+									<li>06:25 PM</li>
+									<li>08:30 PM</li>
+							</ul>
+						</li>
+						<li>
+							<h4>Wed 22 May 2019</h4>
+							<ul class="ptb-movieSession ">
+									<li>01:55 PM</li>
+									<li>04:10 PM</li>
+									<li>06:30 PM</li>
+							</ul>
+						</li>
+				</ul>
+			</li>
+
+		</ul>
+		<ul class="ptb-movieTitle">
+			<li>
+				<h1>Poms</h1>
+				<p>POMS is a comedy about a group of women who form a cheer leading squad at their retirement community, proving that you&#39;re never too old to &#39;bring it!&#39; </p>
+
+				<ul class="ptb-movieDate">
+						<li>
+							<h4>Sun 19 May 2019</h4>
+							<ul class="ptb-movieSession ">
+									<li>04:35 PM</li>
+							</ul>
+						</li>
+						<li>
+							<h4>Mon 20 May 2019</h4>
+							<ul class="ptb-movieSession ">
+									<li>09:45 AM</li>
+									<li>04:00 PM</li>
+									<li>06:20 PM</li>
+							</ul>
+						</li>
+						<li>
+							<h4>Tue 21 May 2019</h4>
+							<ul class="ptb-movieSession ">
+									<li>09:45 AM</li>
+									<li>04:35 PM</li>
+							</ul>
+						</li>
+						<li>
+							<h4>Wed 22 May 2019</h4>
+							<ul class="ptb-movieSession ">
+									<li>09:45 AM</li>
+									<li>11:50 AM</li>
+									<li>02:45 PM</li>
+									<li>04:30 PM</li>
+									<li>09:00 PM</li>
+							</ul>
+						</li>
+				</ul>
+			</li>
+
+		</ul>
+		<ul class="ptb-movieTitle">
+			<li>
+				<h1>The Hustle</h1>
+				<p>Two female scam artists, one low rent and the other high class, compete to swindle a naive tech prodigy out of his fortune.</p>
+
+				<ul class="ptb-movieDate">
+						<li>
+							<h4>Sun 19 May 2019</h4>
+							<ul class="ptb-movieSession ">
+									<li>03:20 PM</li>
+									<li>06:00 PM</li>
+									<li>08:10 PM</li>
+							</ul>
+						</li>
+						<li>
+							<h4>Mon 20 May 2019</h4>
+							<ul class="ptb-movieSession ">
+									<li>09:45 AM</li>
+									<li>12:30 PM</li>
+									<li>03:15 PM</li>
+									<li>06:20 PM</li>
+							</ul>
+						</li>
+						<li>
+							<h4>Tue 21 May 2019</h4>
+							<ul class="ptb-movieSession ">
+									<li>09:45 AM</li>
+									<li>12:15 PM</li>
+									<li>02:35 PM</li>
+									<li>06:25 PM</li>
+									<li>08:20 PM</li>
+							</ul>
+						</li>
+						<li>
+							<h4>Wed 22 May 2019</h4>
+							<ul class="ptb-movieSession ">
+									<li>09:45 AM</li>
+									<li>11:50 AM</li>
+									<li>01:55 PM</li>
+									<li>04:20 PM</li>
+									<li>08:10 PM</li>
+							</ul>
+						</li>
+				</ul>
+			</li>
+
+		</ul>
+		<ul class="ptb-movieTitle">
+			<li>
+				<h1>Top End Wedding</h1>
+				<p>Lauren and Ned are engaged, they are in love, and they have just ten days to find Lauren&#39;s mother who has gone AWOL somewhere in the remote far north of Australia, reunite her parents and pull off their dream wedding.</p>
+
+				<ul class="ptb-movieDate">
+						<li>
+							<h4>Sun 19 May 2019</h4>
+							<ul class="ptb-movieSession ">
+									<li>03:50 PM</li>
+									<li>06:25 PM</li>
+									<li>08:30 PM</li>
+							</ul>
+						</li>
+						<li>
+							<h4>Mon 20 May 2019</h4>
+							<ul class="ptb-movieSession ">
+									<li>09:45 AM</li>
+									<li>12:30 PM</li>
+									<li>03:20 PM</li>
+							</ul>
+						</li>
+						<li>
+							<h4>Tue 21 May 2019</h4>
+							<ul class="ptb-movieSession ">
+									<li>09:45 AM</li>
+									<li>12:15 PM</li>
+									<li>03:20 PM</li>
+							</ul>
+						</li>
+						<li>
+							<h4>Wed 22 May 2019</h4>
+							<ul class="ptb-movieSession ">
+									<li>09:45 AM</li>
+									<li>11:50 AM</li>
+									<li>04:20 PM</li>
+									<li>08:35 PM</li>
+							</ul>
+						</li>
+				</ul>
+			</li>
+
+		</ul>
+</div>
+
+	</div>
+
+</div>
+        
+
+
+</div>
+
+
+
+
+	
+
+<div id="c-mask" class="c-mask"></div>
+
+<nav id="c-menu--slide-right" class="c-menu c-menu--slide-right no-printable">
+    <a href="javascript://" class="c-menu__close text-right"><i class="fa fa-close fa-2x"></i></a>
+    <ul>
+        <li><a class="nav-item" href="/">Home</a></li>
+                    <li style="padding-left: 10px"><a class="nav-item" href="/movies/">Movies</a></li>
+                    <li style="padding-left: 20px"><a class="nav-item" href="/movies/now-showing/">Now Showing</a></li>
+                    <li style="padding-left: 20px"><a class="nav-item" href="/movies/coming-soon/">Coming Soon</a></li>
+                    <li style="padding-left: 20px"><a class="nav-item" href="/movies/advanced-screening/">Pre-Sale Tickets</a></li>
+                    <li style="padding-left: 20px"><a class="nav-item" href="/movies/bubs-in-arms/">Bubs in Arms</a></li>
+                    <li style="padding-left: 20px"><a class="nav-item" href="/movies/subtitled-screenings/">Subtitled Screenings</a></li>
+                    <li style="padding-left: 10px"><a class="nav-item" href="/menu/">Menu</a></li>
+                    <li style="padding-left: 10px"><a class="nav-item" href="/rewards/">Rewards</a></li>
+                    <li style="padding-left: 10px"><a class="nav-item" href="/giftcards/">GiftCards</a></li>
+                    <li style="padding-left: 10px"><a class="nav-item" href="/functions/">Functions</a></li>
+                    <li style="padding-left: 10px"><a class="nav-item" href="/reviews/">Reviews</a></li>
+                    <li style="padding-left: 10px"><a class="nav-item" href="/contact/">Contact</a></li>
+                    <li style="padding-left: 10px"><a class="nav-item" href="/deals/">Deals</a></li>
+
+        
+    </ul>
+</nav>
+	<div class="newsletter__wrapper" ng-controller="constantContactCtrl">
+	<div class="container">
+		<div ng-cloak>
+			<form name="newsletterForm" novalidate ng-show="!responseOk">
+				<error-summary></error-summary>
+				<div class="row">
+					<div class="col-md-3 text-center">
+						<h4>STAY UP TO DATE WITH THE LATEST MOVIES, EVENTS + NEWS</h4>
+					</div>
+					<div class="col-md-2 col-sm-6 form-group" ng-class="{ 'has-error has-feedback': newsletterForm.$submitted && newsletterForm.firstName.$invalid }">
+						<input type="text" class="form-control input-lg" ng-model="newsletterModel.firstName" name="firstName" placeholder="FIRST NAME" required />
+						<span class="fa fa-exclamation fa-2x form-control-feedback" aria-hidden="true" ng-show="newsletterForm.$submitted && newsletterForm.firstName.$invalid"></span>
+
+					</div>
+					<div class="col-md-2 col-sm-6 form-group" ng-class="{ 'has-error has-feedback': newsletterForm.$submitted && newsletterForm.lastName.$invalid }">
+						<input type="text" class="form-control input-lg" ng-model="newsletterModel.lastName" name="lastName" placeholder="LAST NAME" required />
+						<span class="fa fa-exclamation fa-2x form-control-feedback" aria-hidden="true" ng-show="newsletterForm.$submitted && newsletterForm.lastName.$invalid"></span>
+
+					</div>
+					<div class="col-lg-3 col-md-3 col-sm-6 form-group" ng-class="{ 'has-error has-feedback': newsletterForm.$submitted && newsletterForm.email.$invalid }">
+						<input type="email" class="form-control input-lg" name="email" ng-model="newsletterModel.email" placeholder="ENTER EMAIL ADDRESS" required />
+						<span class="fa fa-exclamation fa-2x form-control-feedback" aria-hidden="true" ng-show="newsletterForm.$submitted && newsletterForm.email.$invalid"></span>
+					</div>
+					<div class="col-lg-2 col-md-3 col-sm-12">
+						<button type="button" class="btn btn-default btn-block btn-lg" busy-click="newsletterSignup(newsletterModel)"><span>subscribe</span><i class="fa fa-envelope-o"></i></button>
+					</div>
+				</div>
+			</form>
+			<div class="success-message__div" ng-show="responseOk">
+				<p >Thank you for subscribing! While you’re here, check out our social media pages:	<a href="https://www.facebook.com/BlueRoomCinebar/" class="text-" target="_blank">Facebook</a>, <a href="https://twitter.com/BlueRoomCinebar" target="_blank">Twitter</a> or <a href="https://www.instagram.com/BlueRoomCinebar/" target="_blank">Instagram</a>.</p>
+			</div>
+		</div>
+
+	</div>
+</div>
+	<div class="footer">
+    <div class="container">
+	    <div class="row">
+		    <div class="col-sm-4 first-third">
+			    <a class="logo" href="/">
+
+			    </a>
+			    <p>
+				    151 Baroona Rd,<br />
+				    Rosalie QLD 4064
+			    </p>
+			    <p>
+				    <a href="tel:0738764566">07 3876 4566</a>
+				    <a href="mailto: mail@blueroomcinebar.com">mail@blueroomcinebar.com</a>
+			    </p>
+			    <p>&nbsp;</p>
+
+		    </div>
+		    <div class="col-sm-5 second-third">
+			    <div class="col-md-7 col-sm-6">
+				    <h4>Quick Links</h4>
+				    <ul>
+					
+
+					<li><a href="/movies/now-showing/">Session Times</a></li>
+					    <li><a href="/giftcards/">Gift Cards</a></li>
+					    <li><a href="/loyalty/login/">Member Login</a></li>
+					    <li><a href="/menu/">Menu</a></li>
+						<li><a href="/deals/">Deals</a></li>
+				    </ul>
+
+				    <p>&nbsp;</p>
+			    </div>
+			    <div class="col-md-5 col-sm-6">
+				    <h4>Help</h4>
+				    <ul>
+					    <li><a href="/check-balance/">Check Gift Card balance</a></li>
+					    <li><a href="/contact/">How to get here</a></li>
+					    <li><a href="/reviews/">Reviews</a></li>
+					    <li><a href="/privacy-policy/">Privacy Policy</a></li>
+				    </ul>
+				    <p>&nbsp;</p>
+			    </div>
+		    </div>
+		    <div class="col-sm-3 third-third">
+			    <h4>Socialise with us</h4>
+			    <div>
+				    <a class="social-item" href="https://www.facebook.com/BlueRoomCinebar/" target="_blank">
+    <span class="fa-stack">
+        <i class="fa fa-circle fa-inverse fa-stack-2x"></i>
+        <i class="fa fa-facebook fa-stack-1x"></i>
+    </span>
+</a>
+<a class="social-item" href="https://twitter.com/BlueRoomCinebar" target="_blank">
+    <span class="fa-stack">
+        <i class="fa fa-circle fa-inverse fa-stack-2x"></i>
+        <i class="fa fa-twitter fa-stack-1x"></i>
+    </span>
+</a>
+<a class="social-item" href="https://www.instagram.com/BlueRoomCinebar/" target="_blank">
+    <span class="fa-stack">
+        <i class="fa fa-circle fa-inverse fa-stack-2x"></i>
+        <i class="fa fa-instagram fa-stack-1x"></i>
+    </span>
+</a>
+			    </div>
+		    </div>
+	    </div>
+	    <div class="row">
+		    <div class="col-sm-6 ruby6"></div>
+		    <div class="col-sm-6 ruby6"><label class="text-primary">WEBSITE BY <a href="http://ruby6.com.au/" target="blank">RUBY6</a></label></div>
+	    </div>
+    </div>
+</div>
+
+	<script>
+		window.blueroomcinemaId = '0001';
+	</script>
+
+
+	<!-- inject:js -->
+	<script src="/lib/js/vendor.js?v=1531368355880"></script>
+	<script src="/scripts/min/plugins.min.js?v=1531368355880"></script>
+	<script src="/scripts/min/app.core.min.js?v=1531368355880"></script>
+	<script src="/scripts/min/app.min.js?v=1531368355880"></script>
+	<!-- endinject -->
+
+	<script type="text/javascript">
+		//Initialize all gaComponents
+		window.ghd.plugins.init();
+		Raygun.init('J/JuITuJE7QRrqWalBz/2g==').attach();
+	</script>
+
+	
+
+		<script>
+			var films = [];
+
+			function changeDateSession(obj) {
+
+				var dom = $('.films .row');
+
+				$('.films .film').remove();
+
+				_.each(films,
+					function(film) {
+						if (film.dates.indexOf($(obj).val()) === -1) {
+							return;
+						}
+
+						var html = film.html.clone();
+
+						$(html).appendTo(dom);
+						$('ul.session-list li[date=\'' + $(obj).val() + '\']', html).show();
+
+					});
+
+
+				$(".indicator").hide();
+
+			}
+
+			$(function() {
+				var datePicker = $("#session-date");
+				if (datePicker.get(0)) {
+					$('.films .film').each(function() {
+
+						var domItem = $(this);
+						var domLi = domItem.find("ul.session-list li");
+						var film = { html: domItem.clone(), dates: [] };
+
+						domLi.each(function() {
+							film.dates.push($(this).attr('date'));
+						});
+
+						films.push(film);
+
+						domItem.remove();
+					});
+
+					$(".films").show();
+
+					if (datePicker.get(0)) {
+						changeDateSession(datePicker);
+					} else {
+						$(".indicator").hide();
+					}
+				} else {
+					$(".indicator").hide();
+					$(".films").show();
+				}
+			});
+
+		</script>
+
+
+
+
+	</body>
+</html>
